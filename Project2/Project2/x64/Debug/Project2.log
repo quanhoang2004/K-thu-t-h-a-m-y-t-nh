@@ -1,0 +1,11 @@
+﻿  FileName.cpp
+FileName.obj : error LNK2019: unresolved external symbol glutInit referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+FileName.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+FileName.obj : error LNK2019: unresolved external symbol glutSolidCube referenced in function "void __cdecl drawCube(float,float,float)" (?drawCube@@YAXMMM@Z)
+glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\hquan\source\repos\Project2\x64\Debug\Project2.exe : fatal error LNK1120: 8 unresolved externals
